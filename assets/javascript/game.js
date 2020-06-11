@@ -37,5 +37,8 @@ resetbutton.addEventListener("click", function () {
     console.log(" button reset")
     let resetnumberup = Number(numresets.innerHTML) + 1;
     numresets.innerHTML = resetnumberup;
-    
+    goalnums1.innerHTML = 0
+    goalnums2.innerHTML = 0
+    teamOnenumshots.innerHTML = 0
+    teamTwonumshots.innerHTML = 0
 })
